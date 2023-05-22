@@ -1,0 +1,281 @@
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+header nav ul {
+  display: flex;
+  gap: 20px;
+}
+header nav ul li {
+  list-style: none;
+  font-size: 13px;
+  letter-spacing: 0px;
+  margin: 5px;
+}
+
+main {
+  padding: 20px;
+}
+main .intro1 {
+  background-image: url("../img/mainbg.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main .intro1 h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+main .intro1 p {
+  color: white;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+main .intro2 {
+  position: relative;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main .intro2 h2 {
+  text-align: center;
+  color: rgb(255, 213, 0);
+  font-weight: 300;
+  font-size: 15px;
+}
+main .intro2 p {
+  color: rgb(163, 163, 163);
+  font-size: 5px;
+}
+main .intro2 p.loose-lines {
+  line-height: 1.8;
+}
+main .intro2 p.tight-lines {
+  line-height: 1.8;
+}
+main .intro3 {
+  position: relative;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main .intro3 h2 {
+  text-align: center;
+  color: black;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 2.8;
+}
+main .intro3 p {
+  color: rgb(163, 163, 163);
+  font-size: 5px;
+}
+main .intro3 p.loose-lines {
+  line-height: 1.8;
+  text-align: center;
+}
+main .intro3 p.tight-lines {
+  line-height: 1.8;
+}
+main .image-row {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: -70px;
+}
+main .image-row img {
+  flex: 1 0 auto;
+  height: auto;
+  max-width: 100%;
+  margin: 0;
+}
+main .image-and-text .row {
+  display: flex;
+}
+main .image-and-text .row .half {
+  flex: 1;
+  color: black;
+  font-size: 15px;
+  line-height: 1.2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main .image-and-text .row .half img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .image-and-text .row .half .text-container {
+  background-color: #f5f5f5;
+  padding: 15px;
+  padding-left: 30px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main .image-and-text .row .half .text-container h2 {
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+main .image-and-text .row .half .text-container p {
+  color: rgb(163, 163, 163);
+  font-size: 5px;
+  line-height: 2;
+}
+main .image-and-text .row .half .text-container-right {
+  background-color: #f5f5f5;
+  padding: 15px;
+  padding-right: 30px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: right;
+}
+main .image-and-text .row .half .text-container-right h2 {
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+main .image-and-text .row .half .text-container-right p {
+  color: rgb(163, 163, 163);
+  font-size: 5px;
+  line-height: 2;
+}
+main .intro4 {
+  position: relative;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main .intro4 h2 {
+  text-align: center;
+  color: rgb(255, 213, 0);
+  font-weight: 300;
+  font-size: 15px;
+}
+main .intro4 p {
+  color: rgb(163, 163, 163);
+  font-size: 5px;
+}
+main .intro4 p.loose-lines {
+  line-height: 2.8;
+}
+main .intro4 p.tight-lines {
+  line-height: 1.8;
+}
+main .image-gallery {
+  display: flex;
+  justify-content: center;
+  padding: 0 30px;
+}
+main .image-item {
+  text-align: center;
+  margin-right: 30px;
+}
+main .image-item:last-child {
+  margin-right: 0;
+}
+main .image-item img {
+  width: 300px;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .image-item p {
+  color: rgb(163, 163, 163);
+  font-size: 12px;
+  text-align: left;
+  line-height: 1.8;
+}
+
+.button, .map-info, .contact-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.button {
+  margin-bottom: 20px;
+}
+.button a {
+  display: inline-block;
+  background-color: yellow;
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.map-info {
+  background-color: gray;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+.map-info .google-map {
+  width: 100%;
+  height: 300px;
+}
+.map-info .address-info {
+  margin-top: 20px;
+}
+
+.contact-form {
+  flex-direction: column;
+}
+.contact-form input, .contact-form textarea {
+  margin-bottom: 10px;
+  width: 300px;
+  max-width: 100%;
+}
+.contact-form button {
+  width: 100px;
+  padding: 10px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+section img {
+  width: 100%;
+  height: auto;
+}
+section h1, section h2 {
+  color: #333;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}/*# sourceMappingURL=style.css.map */
